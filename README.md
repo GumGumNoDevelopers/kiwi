@@ -24,3 +24,4 @@ Kiwi is a web-based finance management application built with React. It helps us
    ```bash
    git clone <repository-url>
    cd kiwi-app
+//Rule Test
