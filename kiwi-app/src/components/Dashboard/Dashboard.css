@@ -1,0 +1,50 @@
+.dashboard {
+    width: 100%; 
+    height: 80vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1e5799 0%, #2989d8 50%, #207cca 100%);
+    padding: 20px;
+    box-sizing: border-box; 
+    color: #fff; 
+    position: relative; 
+}
+
+.summary {
+    width: 100%;
+    max-width: 800px; 
+    margin-top: 20px;
+}
+
+.summary-item {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+    .summary-item h3 {
+        font-size: 18px;
+        color: #333;
+    }
+
+    .summary-item p {
+        font-size: 24px;
+        font-weight: bold;
+        color: #4CAF50;
+    }
+
+.App-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #282c34;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
